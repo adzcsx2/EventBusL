@@ -22,4 +22,8 @@ Step 2. Add it in your app module dependency
 	        compile 'com.github.adzcsx2:EventBusL:ff51df3214'
     }
 
+If you don't want to show the log:
+
+    EventBus.getDefault().setDebug(false);
+
 [![](https://jitpack.io/v/adzcsx2/EventBusL.svg)](https://jitpack.io/#adzcsx2/EventBusL)
