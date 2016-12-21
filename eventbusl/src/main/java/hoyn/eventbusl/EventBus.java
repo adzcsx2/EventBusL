@@ -149,7 +149,7 @@ public class EventBus {
             for (SubscriberMethod subscriberMethod : subscriberMethods) {
                 subscribe(subscriber, subscriberMethod);
                 //add all subscribe into Loggger
-                LoggerL.addSubcribe(subscriberClass.getSimpleName(),postBuilder.toString(),subscriberMethod.method.getName(),subscriberMethod.eventType.getSimpleName());
+                LoggerL.addSubscribe(subscriberClass.getSimpleName(),postBuilder.toString(),subscriberMethod.method.getName(),subscriberMethod.eventType.getSimpleName());
             }
         }
     }
@@ -237,7 +237,7 @@ public class EventBus {
     /** Unregisters the given subscriber from all event classes. */
     public synchronized void unregister(Object subscriber) {
         //remove the log info when unregister
-        LoggerL.removeSubcribe(subscriber.getClass().getSimpleName());
+        LoggerL.removeSubscribe(subscriber.getClass().getSimpleName());
         List<Class<?>> subscribedTypes = typesBySubscriber.get(subscriber);
         if (subscribedTypes != null) {
             for (Class<?> eventType : subscribedTypes) {

@@ -44,7 +44,7 @@ class LoggerL {
                 .append(")");
     }
 
-    public static void addSubcribe(String activity, String activityLog, String methodName, String eventType) {
+    public static void addSubscribe(String activity, String activityLog, String methodName, String eventType) {
         Map<String, String> subscribeInfo = new HashMap<>();
         subscribeInfo.put("activity", activity);
         subscribeInfo.put("activityLog", activityLog);
@@ -53,7 +53,7 @@ class LoggerL {
         subscribeList.add(subscribeInfo);
     }
 
-    public static void removeSubcribe(String activity) {
+    public static void removeSubscribe(String activity) {
         for (Map<String, String> subscribe : subscribeList) {
             if (activity.equals(subscribe.get("activity"))) {
                 subscribeList.remove(subscribe);
