@@ -28,7 +28,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.ExecutorService;
 
-import hoyn.eventbusl.util.LoggerL;
 
 /**
  * EventBus is a central publish/subscribe event system for Android. Events are posted ({@link #post(Object)}) to the
@@ -149,7 +148,7 @@ public class EventBus {
         synchronized (this) {
             for (SubscriberMethod subscriberMethod : subscriberMethods) {
                 subscribe(subscriber, subscriberMethod);
-                //add all subcribe into Loggger
+                //add all subscribe into Loggger
                 LoggerL.addSubcribe(subscriberClass.getSimpleName(),postBuilder.toString(),subscriberMethod.method.getName(),subscriberMethod.eventType.getSimpleName());
             }
         }

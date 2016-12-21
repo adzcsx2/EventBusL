@@ -39,12 +39,39 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ebfc98733f69c4bbda07e087e4d868b20a7addd6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bda07a802069f84d2097c438b78f94fc4ed83c8a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_3647d1c0c8dd68ced261fc4908f3a8cdd2258e0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_259ea2f30e2b3a83dfc612dc59d7d55932c9ab1d/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -84,6 +111,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hoyn/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.3/c5399b18a672f7973c8a9b9d6b731a3a36e590cc/leakcanary-analyzer-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5399b18a672f7973c8a9b9d6b731a3a36e590cc">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-analyzer-1.3_7211588b0816762fb71bfacf7704010ccd4778f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -99,6 +135,24 @@
         revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f87c8d98d5f763ede6737a9c36d268f18ae6bcc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a865de49924d4bf79be22304b80a1628f367bdc">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56790413369724bd8a68fb7e59e96aec979fa264/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6f5a9e440c7a4ce4f8e597e75ff83464573ee13a">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_37f8f98fbefa809d348e4da1f2bc66cb3d4a2978/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -138,6 +192,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.squareup.leakcanary/leakcanary-android/1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f4e7adebf49e683db82fb6efac2caaf3d768b8d4">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.squareup.leakcanary-leakcanary-android-1.3_078f26e2898c7be0038c73caa090494174871ff3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/1.1/b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635/haha-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b7b2e61ee1ad2d1ac6ae3122de9c940fb0d0e635">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/haha-1.1_21d02ddf71ec3f048b9f75d0ea24ac5661e5f810/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -165,93 +237,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hoyn/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.3/632482a61ad24b7ec864072945d221369f9a606/leakcanary-watcher-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0632482a61ad24b7ec864072945d221369f9a606">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/leakcanary-watcher-1.3_4d3564d74772e7221fd59e62fe58a1c53cde851e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_a1b308581b08490fef4f7bd5277db387b4c0f805/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e87f11cd3134d8002f6ba5bee5dc99bf047624b4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ba35e00a39fdd3d264d71fd3bb4812123173ce52/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7b0f2654014a5f7d460dab92e6e8cb0bcf6c2e96/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fba7bb0be458da0e987fc651649f47c9f696c70e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ebfc98733f69c4bbda07e087e4d868b20a7addd6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_bda07a802069f84d2097c438b78f94fc4ed83c8a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_259ea2f30e2b3a83dfc612dc59d7d55932c9ab1d/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="507c64394e8557a4089982e18ac16abc0cda5bc3">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56790413369724bd8a68fb7e59e96aec979fa264/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2aed5385141c4a24a0d3d8dbad7ae4b70fe46a44">
-        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_37f8f98fbefa809d348e4da1f2bc66cb3d4a2978/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -291,12 +291,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e87f11cd3134d8002f6ba5bee5dc99bf047624b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ba35e00a39fdd3d264d71fd3bb4812123173ce52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_7b0f2654014a5f7d460dab92e6e8cb0bcf6c2e96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="2c77b82fbb8f2ba1e18628976b49178fdd4e90ec">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a93d3caa20a007c2c16055737faf038761026859/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fba7bb0be458da0e987fc651649f47c9f696c70e/classes.dex" />
     </item>
 
 </items>
