@@ -35,26 +35,28 @@ public class LoggerL {
     public static void setPostMessage(String eventType) {
         EventType = eventType;
         postBuilder = new StringBuilder();
-        StackTraceElement stackTraceElement = Thread.currentThread().getStackTrace()[5];
+        StackTraceElement stackTraceElement = Thread.currentThread().getStackTrace()[4];
         postBuilder.append(content_post)
                 .append("(")
                 .append(stackTraceElement.getFileName())
                 .append(":")
                 .append(stackTraceElement.getLineNumber())
                 .append(")");
+
     }
 
-    public static void addSubcribe(String activity,String activityLog, String methodName,String eventType) {
+    public static void addSubcribe(String activity, String activityLog, String methodName, String eventType) {
         Map<String, String> subcribeInfo = new HashMap<>();
         subcribeInfo.put("activity", activity);
         subcribeInfo.put("activityLog", activityLog);
-        subcribeInfo.put("methodName",methodName);
-        subcribeInfo.put(methodName,eventType);
+        subcribeInfo.put("methodName", methodName);
+        subcribeInfo.put(methodName, eventType);
         subcribeList.add(subcribeInfo);
     }
+
     public static void removeSubcribe(String activity) {
-        for (Map<String,String> subcribe:subcribeList) {
-            if(activity.equals(subcribe.get("activity"))){
+        for (Map<String, String> subcribe : subcribeList) {
+            if (activity.equals(subcribe.get("activity"))) {
                 subcribeList.remove(subcribe);
                 break;
             }
@@ -66,24 +68,25 @@ public class LoggerL {
             Log.d(TAG, line_top);
             Log.d(TAG, fixFormat(postBuilder.toString()));
             Log.d(TAG, line_part);
-            Log.d(TAG,fixFormat(content_event+EventType));
+            Log.d(TAG, fixFormat(content_event + EventType));
             Log.d(TAG, line_part);
-            for (Map<String,String> subcribeInfo :subcribeList) {
-                if(EventType.equals(subcribeInfo.get(subcribeInfo.get("methodName")))){
+            for (Map<String, String> subcribeInfo : subcribeList) {
+                if (EventType.equals(subcribeInfo.get(subcribeInfo.get("methodName")))) {
                     StringBuffer sb = new StringBuffer();
-                    sb      .append(content_subcribe_where)
+                    sb.append(content_subcribe_where)
                             .append(subcribeInfo.get("activityLog"))
                             .append("     ")
                             .append(content_subcribe_method)
                             .append(subcribeInfo.get("methodName"))
                             .append("()");
-                    Log.d(TAG,fixFormat(sb.toString()));
+                    Log.d(TAG, fixFormat(sb.toString()));
                 }
             }
             Log.d(TAG, line_bottom);
         }
     }
-    private static String fixFormat(String info){
+
+    private static String fixFormat(String info) {
         StringBuilder temp = new StringBuilder();
         temp.append(info);
         if (info.length() < line_top.length()) {

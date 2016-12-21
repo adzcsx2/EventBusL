@@ -26,6 +26,9 @@ public class MainActivity3 extends Activity {
     public void revWTF(TestJavaBean testJavaBean){
 
     }
+
+
+
     @Override
     protected void onDestroy() {
         super.onDestroy();

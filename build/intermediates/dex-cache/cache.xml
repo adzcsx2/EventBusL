@@ -241,7 +241,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7168de938dd7f25093d147af9240c14dd7914614">
+        sha1="507c64394e8557a4089982e18ac16abc0cda5bc3">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_56790413369724bd8a68fb7e59e96aec979fa264/classes.dex" />
     </item>
     <item
@@ -250,7 +250,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6d7d75ad8a3e4f3343691ffe62ab751f19e5fb97">
+        sha1="2aed5385141c4a24a0d3d8dbad7ae4b70fe46a44">
         <dex dex="/Users/hoyn/Documents/WorkPlace/EventBusL/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_37f8f98fbefa809d348e4da1f2bc66cb3d4a2978/classes.dex" />
     </item>
     <item
