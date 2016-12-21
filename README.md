@@ -19,7 +19,7 @@ Step 2. Add it in your app module dependency
 
 	dependencies {
 	        ...
-	        compile 'com.github.adzcsx2:EventBusL:4ea686b319'
+	        compile 'com.github.adzcsx2:EventBusL:ad5885dcf8'
     }
 
 If you don't want to show the log:

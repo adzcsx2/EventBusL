@@ -148,7 +148,7 @@ public class EventBus {
         synchronized (this) {
             for (SubscriberMethod subscriberMethod : subscriberMethods) {
                 subscribe(subscriber, subscriberMethod);
-                //add all subscribe into Loggger
+                //add all subscribe into Logger
                 LoggerL.addSubscribe(subscriberClass.getSimpleName(),postBuilder.toString(),subscriberMethod.method.getName(),subscriberMethod.eventType.getSimpleName());
             }
         }
@@ -399,7 +399,9 @@ public class EventBus {
                     eventClass != SubscriberExceptionEvent.class) {
                 post(new NoSubscriberEvent(this, event));
             }
-        }else{
+        }
+        //print log
+        else{
             LoggerL.print();
         }
     }
