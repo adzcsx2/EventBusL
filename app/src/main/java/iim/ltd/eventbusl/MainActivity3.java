@@ -1,16 +1,14 @@
 package iim.ltd.eventbusl;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
 import hoyn.eventbusl.EventBus;
 import hoyn.eventbusl.Subscribe;
 import hoyn.eventbusl.ThreadMode;
 
-public class MainActivity extends Activity {
+public class MainActivity3 extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,22 +21,14 @@ public class MainActivity extends Activity {
                 EventBus.getDefault().post(new TestJavaBean());
             }
         });
-        findViewById(R.id.next).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this,MainActivity2.class);
-                startActivity(intent);
-            }
-        });
     }
     @Subscribe(threadMode = ThreadMode.MAIN)
-    public void revMessage(TestJavaBean testJavaBean){
+    public void revWTF(TestJavaBean testJavaBean){
 
     }
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.e("aa","aaa");
         EventBus.getDefault().unregister(this);
     }
 }

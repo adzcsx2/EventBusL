@@ -387,7 +387,6 @@ public class EventBus {
             int countTypes = eventTypes.size();
             for (int h = 0; h < countTypes; h++) {
                 Class<?> clazz = eventTypes.get(h);
-
                 subscriptionFound |= postSingleEventForEventType(event, postingState, clazz);
             }
         } else {
@@ -401,6 +400,8 @@ public class EventBus {
                     eventClass != SubscriberExceptionEvent.class) {
                 post(new NoSubscriberEvent(this, event));
             }
+        }else{
+            LoggerL.print();
         }
     }
 
@@ -457,8 +458,6 @@ public class EventBus {
             default:
                 throw new IllegalStateException("Unknown thread mode: " + subscription.subscriberMethod.threadMode);
         }
-
-        LoggerL.print();
 
     }
 

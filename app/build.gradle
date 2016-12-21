@@ -26,6 +26,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:24.2.1'
     //    compile 'com.github.adzcsx2:EventBusL:18beccbffb'
-//    compile project(':eventbusl')
+    compile project(':eventbusl')
 //    compile 'com.github.adzcsx2:EventBusL:6fe15f8a83'
+//    compile 'com.github.adzcsx2:EventBusL:ee04abed2b'
 }
